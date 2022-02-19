@@ -1,0 +1,50 @@
+---
+title: "Git Info"
+author: "napoli"
+date: "2/19/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, eval=FALSE}
+
+# make localy a copy of the repository at <url> 
+git clone <url>
+
+# edit <file name>
+# show changes that were made during editing
+git diff
+
+# finished editing ...
+# new version of the file that we want to save
+git add <file name>
+  
+# now is the time to actually make the save
+git commit -m "message"  
+
+# combine the add and commit steps together
+git commit -am "message"   
+
+# status report on the repository
+git status
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
